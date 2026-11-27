@@ -117,22 +117,22 @@ st.bar_chart(
 )
 
 # -----------------------------------
-# 5. BACKLOG DISTRIBUTION
-# -----------------------------------
+
+# 5. BACKLOG ANALYSIS
 
 st.header("5. Backlog Analysis")
 
 backlog_data = pd.read_sql_query("""
-SELECT backlogs,
-       COUNT(*) AS total_students
-FROM students
-WHERE backlogs IS NOT NULL
-GROUP BY backlogs
-ORDER BY backlogs
+    SELECT department,
+           COUNT(*) AS total_students
+    FROM students
+    WHERE backlogs > 0
+    GROUP BY department
+    ORDER BY department
 """, conn)
 
 st.bar_chart(
-    backlog_data.set_index("backlogs"),
+    backlog_data.set_index("department"),
     y="total_students"
 )
 
