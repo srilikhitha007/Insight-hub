@@ -1,0 +1,68 @@
+{
+  "kind": "bigquery#queryResponse",
+  "jobReference": {
+    "projectId": "floci-local",
+    "jobId": "job_f026d446d68f4bec9e07c9d9b143ddd8",
+    "location": "US"
+  },
+  "jobComplete": true,
+  "schema": {
+    "fields": [
+      {
+        "name": "department",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "student_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "AIML"
+        },
+        {
+          "v": "13"
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "CSE"
+        },
+        {
+          "v": "16"
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "ECE"
+        },
+        {
+          "v": "9"
+        }
+      ]
+    },
+    {
+      "f": [
+        {
+          "v": "ISE"
+        },
+        {
+          "v": "12"
+        }
+      ]
+    }
+  ],
+  "totalRows": "4",
+  "cacheHit": false,
+  "totalBytesProcessed": "8572"
+}

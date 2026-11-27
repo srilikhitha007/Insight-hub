@@ -1,0 +1,66 @@
+{
+  "kind": "bigquery#table",
+  "id": "floci-local:insighthub_test.students_demo",
+  "etag": "86ecb5532863",
+  "selfLink": "http://localhost:4588/bigquery/v2/projects/floci-local/datasets/insighthub_test/tables/students_demo",
+  "tableReference": {
+    "projectId": "floci-local",
+    "datasetId": "insighthub_test",
+    "tableId": "students_demo"
+  },
+  "type": "TABLE",
+  "schema": {
+    "fields": [
+      {
+        "name": "student_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "student_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "department",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "semester",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "attendance_percentage",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "internal_marks",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "assignment_score",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "final_grade",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "backlogs",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  "numRows": "50",
+  "creationTime": "1795812846746",
+  "lastModifiedTime": "1795812861195",
+  "location": "US",
+  "numLongTermBytes": "0"
+}

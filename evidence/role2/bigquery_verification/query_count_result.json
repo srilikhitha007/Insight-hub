@@ -1,0 +1,30 @@
+{
+  "kind": "bigquery#queryResponse",
+  "jobReference": {
+    "projectId": "floci-local",
+    "jobId": "job_5ff91027bd364887a88b360c72ee71f3",
+    "location": "US"
+  },
+  "jobComplete": true,
+  "schema": {
+    "fields": [
+      {
+        "name": "total_students",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "50"
+        }
+      ]
+    }
+  ],
+  "totalRows": "1",
+  "cacheHit": false,
+  "totalBytesProcessed": "8572"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "projects/floci-local/locations/us-central1/services/insighthub-dashboard",
+  "uid": "fdbdaf9d-60ad-4360-a02e-768b0642de2e",
+  "generation": "1",
+  "createTime": "2026-11-27T22:12:39.775207067Z",
+  "updateTime": "2026-11-27T22:12:40.934078030Z",
+  "template": {
+    "containers": [
+      {
+        "image": "insighthub-dashboard:latest",
+        "env": [
+          {
+            "name": "PORT",
+            "value": "8080"
+          },
+          {
+            "name": "BIGQUERY_API_BASE_URL",
+            "value": "http://172.17.0.2:4588/bigquery/v2/projects/floci-local/queries"
+          }
+        ]
+      }
+    ]
+  },
+  "traffic": [
+    {
+      "type": "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST",
+      "percent": 100
+    }
+  ],
+  "urls": [
+    "http://insighthub-dashboard-1efb2c36c23f.us-central1.run.localhost.floci.io:4588"
+  ],
+  "observedGeneration": "1",
+  "terminalCondition": {
+    "type": "Ready",
+    "state": "CONDITION_SUCCEEDED",
+    "lastTransitionTime": "2026-11-27T22:12:40.934078030Z"
+  },
+  "conditions": [
+    {
+      "type": "Ready",
+      "state": "CONDITION_SUCCEEDED",
+      "lastTransitionTime": "2026-11-27T22:12:40.934078030Z"
+    }
+  ],
+  "latestReadyRevision": "projects/floci-local/locations/us-central1/services/insighthub-dashboard/revisions/insighthub-dashboard-00001",
+  "latestCreatedRevision": "projects/floci-local/locations/us-central1/services/insighthub-dashboard/revisions/insighthub-dashboard-00001",
+  "trafficStatuses": [
+    {
+      "type": "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST",
+      "revision": "projects/floci-local/locations/us-central1/services/insighthub-dashboard/revisions/insighthub-dashboard-00001",
+      "percent": 100,
+      "uri": "http://insighthub-dashboard-1efb2c36c23f.us-central1.run.localhost.floci.io:4588"
+    }
+  ],
+  "uri": "http://insighthub-dashboard-1efb2c36c23f.us-central1.run.localhost.floci.io:4588",
+  "etag": "477733dd-fbd3-45e5-b8f4-af20b8c72dd8"
+}

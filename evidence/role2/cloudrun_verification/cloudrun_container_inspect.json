@@ -1,0 +1,242 @@
+[
+    {
+        "Id": "84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de",
+        "Created": "2026-11-27T22:12:39.88283467Z",
+        "Path": "/bin/sh",
+        "Args": [
+            "-c",
+            "streamlit run app.py --server.port=${PORT} --server.address=0.0.0.0 --server.headless=true"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 38311,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-11-27T22:12:39.969378029Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:b2f7aa71ccec85873ba86a5a060778ea16666c8644a9a6e5df9ed84fc5c43bed",
+        "ResolvConfPath": "/var/lib/docker/containers/84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de/hostname",
+        "HostsPath": "/var/lib/docker/containers/84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de/hosts",
+        "LogPath": "/var/lib/docker/containers/84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de/84ce5ea503ee5eed199ad55d88f6b6e85e8704529ab9731d16e772944149b1de-json.log",
+        "Name": "/floci-gcp-cloudrun-insighthub-dashboard-insighthub-dashboard-00001-424bac8d-4003-46e9-859f-9f0ca3ba58f0",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {
+                    "max-file": "3",
+                    "max-size": "10m"
+                }
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [
+                "host.docker.internal:host-gateway"
+            ],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "84ce5ea503ee",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {},
+                "8501/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PORT=8080",
+                "BIGQUERY_API_BASE_URL=http://172.17.0.2:4588/bigquery/v2/projects/floci-local/queries",
+                "K_SERVICE=insighthub-dashboard",
+                "K_REVISION=insighthub-dashboard-00001",
+                "K_CONFIGURATION=insighthub-dashboard",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.18",
+                "PYTHON_SHA256=9120e0a653868f6e3698d36cdd99e5a58903ec9469e448f21d98f7b16d8fa290",
+                "PYTHONUNBUFFERED=1"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "streamlit run app.py --server.port=${PORT} --server.address=0.0.0.0 --server.headless=true"
+            ],
+            "Image": "insighthub-dashboard:latest",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "Labels": {
+                "floci": "true",
+                "floci_emulator": "floci-gcp",
+                "floci_location": "us-central1",
+                "floci_project": "floci-local",
+                "floci_resource": "insighthub-dashboard-00001",
+                "floci_service": "cloudrun",
+                "io.floci": "gcp",
+                "io.floci.cloudrun.resource-name": "projects/floci-local/locations/us-central1/services/insighthub-dashboard/revisions/insighthub-dashboard-00001",
+                "io.floci.location": "us-central1",
+                "io.floci.owner": "4588",
+                "io.floci.project": "floci-local",
+                "io.floci.resource-id": "insighthub-dashboard-00001",
+                "io.floci.service": "cloudrun"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "51cc57ec55dc025c38c587826b13dbae141b6ad4cf7ec48fe8af905f5055ffcc",
+            "SandboxKey": "/var/run/docker/netns/51cc57ec55dc",
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "58085"
+                    }
+                ]
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "aa7dbd79781a755ad093174b25754fe0da125d545deab3015e7d46c2268169cc",
+                    "EndpointID": "4a541aa27f2a3b1ea1641b191c0dcbecc0fb4c9eb3a9561e51c001fd12af326d",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.6",
+                    "MacAddress": "e2:93:89:97:c6:17",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:b17d666b7a31b8e8b1e6f7c8e1b5a3505a36fce9f507a7d1ee06e874857ace68",
+            "size": 1813,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

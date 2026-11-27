@@ -1,0 +1,24 @@
+{
+  "kind": "storage#objects",
+  "items": [
+    {
+      "kind": "storage#object",
+      "id": "insighthub-role2-test-20261127/students.csv/1795791623715",
+      "selfLink": "http://localhost:4588/storage/v1/b/insighthub-role2-test-20261127/o/students.csv",
+      "name": "students.csv",
+      "bucket": "insighthub-role2-test-20261127",
+      "generation": "1795791623715",
+      "metageneration": "1",
+      "contentType": "text/csv",
+      "storageClass": "STANDARD",
+      "size": "95",
+      "timeCreated": "2026-11-27T15:00:23.715180Z",
+      "updated": "2026-11-27T15:00:23.715180Z",
+      "crc32c": "CjL/KQ==",
+      "md5Hash": "OAoMyrTjc8N5sEehdhR3ZQ==",
+      "mediaLink": "http://localhost:4588/storage/v1/b/insighthub-role2-test-20261127/o/students.csv?alt=media&generation=1795791623715",
+      "etag": "OAoMyrTjc8N5sEehdhR3ZQ==",
+      "isLatest": true
+    }
+  ]
+}
